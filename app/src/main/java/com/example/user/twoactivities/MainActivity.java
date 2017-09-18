@@ -84,8 +84,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-//kj
 
+    public MainActivity() {
+        super();
+    }
 
     @Override
     protected void onStart() {
